@@ -12,6 +12,6 @@ def filter_lines(regexp, lines):
 
 if __name__ == "__main__":
     filename = "coverage-error.log"
-    regexp = r"\[\d\d\d\d\.\d\d\.\d\d \d\d:\d\d:\d\d\].+"
+    regexp = r"\[\d\d\d\d\.\d\d\.\d\d \d\d:\d\d:d\d\].+"
     lines = read_file(filename)
     print(filter_lines(regexp, lines))
